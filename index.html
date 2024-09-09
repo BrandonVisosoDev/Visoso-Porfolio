@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importamos normalize -->
+
+    <link rel="preload" href="normalize/normalize.css"as="style">
+    <link rel="stylesheet" href="normalize/normalize.css">
+
+    <!-- Importamos estilos -->
+
+    <link rel="preload" href="styles/styles.css"as="style">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Importamos Tipografias -->
+
+    <!-- LOGO -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Langar&display=swap" as="Font" crossorigin="crossorigin">
+
+    <!-- H3 Name -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap" as="Font" crossorigin="crossorigin">
+
+    <!--  p Span  -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" as="Font" crossorigin="crossorigin">
+
+
+    <!-- H2 formulario -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" as="Font" crossorigin="crossorigin">
+
+    <!-- Labels y contact -->
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet" as="Font" crossorigin="crossorigin">
+
+    <!-- Habilidades blandas -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" as="Font" crossorigin="crossorigin">
+
+    
+    <!-- Importamos Iconos -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Importamos los scripts -->
+
+    <script src="/scripts/Down_CV.js"></script>
+    <script src="/scripts/No_Reload.js"></script>
+              
+    <!-- Damos un titulo -->
+
+    <title>PORTAFOLIO | VISOSO</title>
+
+
+</head>
+
+<!--  NavBar  -->
+
+<body>
+
+<!-- Esto para el menu burger mobile -->
+              
+<input type="checkbox" id="check">
+<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+<label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+
+    <nav>
+        <h1>BRANDON</h1>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Soft Skills</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#footer">End</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Home  -->
+<div  class="container">
+    <section id="home" class="intro">
+        <h1>Hola 👋 Soy</h1>
+        <h3>Brandon Visoso</h3>
+        <p><span>Ingeniero en sistemas</span>, enfocado en la tecnología</p>
+        <a id="download-cv" class="codepen-button"><span>Descargar CV</span></a>
+    </section>
+</div>
+
+    <!-- About Me -->
+
+    <section id="about-me" class="about-me">
+
+        <h1>Acerca de Mi</h1>
+
+        <div class="about-content">
+            <div class="about-photo">
+                <img src="/img/user.jpg" alt="Foto de perfil">
+            </div>
+            <div class="about-text">
+
+                <p>
+
+                    Soy un ingeniero en sistemas recien graduado de la Universidad Uk, con un conocimiento en 
+                    programacion, desarrollo web, analisis de datos y ciberseguridad, estoy buscando una oportunidad 
+                    de aplicar mis habilidades y conocimientos en proyectos reales. Aunque no tengo experiencia profesional
+                    he desarrollado proyectos personales para practicar y mejorar mis habilidades. Ahnelo seguir 
+                    aprendiendo de profesionales en el area para expandir mi conocimiento y adquirir experiencia
+                    laboral.
+
+                </p>
+                            
+
+            </div>
+        </div>
+
+
+    </section>
+        
+    
+    <!-- Aqui va ir projects -->
+
+    
+      <section id="projects" class="projects">
+        <h1 class="project-title">Mis proyectos</h1>
+    
+        <div class="project-container">
+            <!-- Tarjeta 1 -->
+            <div class="card-projects">
+                <div class="card2-projects">
+                    <div class="project-image">
+                        <img src="/img/LADING BP.jpeg" alt="Imagen del proyecto">
+                    </div>
+                    <div class="project-details">
+                        <h3>Landing Page BlackPink</h3>
+                        <div class="project-description">
+                            <p>
+                                Este proyecto Front-End fue realizado como práctica para aplicar diseño responsivo
+                                y a su vez maquetar lo que ya se tenía imaginado, fue mi primera creación completa
+                                de lo que aprendí en el curso y universidad.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/BrandonVisosoDev/Landing-BP" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/BrandonVisosoDev/Landing-BP" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech">HTML</span>
+                            <span class="tech">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Termina Tarjeta 1 -->
+    
+            <!-- Tarjeta 2 -->
+            <div class="card-projects">
+                <div class="card2-projects">
+                    <div class="project-image">
+                        <img src="/img/Facturador.jpeg" alt="Imagen del proyecto">
+                    </div>
+                    <div class="project-details">
+                        <h3>App Facturador Web</h3>
+                        <div class="project-description">
+                            <p>
+                                Este proyecto Back-End fue realizado como práctica para una empresa ficticia que
+                                necesitaba una app para poder hacer facturas, entonces de ahí nace la necesidad de crear
+                                este facturador donde el usuario puede hacerlo fácilmente.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/BrandonVisosoDev/Bill_generator" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/BrandonVisosoDev/Bill_generator" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech">PYTHON</span>
+                            <span class="tech">STREAMLIT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Termina Tarjeta 2 -->
+    
+            <!-- Tarjeta 3 -->
+            <div class="card-projects">
+                <div class="card2-projects">
+                    <div class="project-image">
+                        <img src="/img/WEB BP.jpeg" alt="Imagen del proyecto">
+                    </div>
+                    <div class="project-details">
+                        <h3>Página Web de BlackPink</h3>
+                        <div class="project-description">
+                            <p>
+                                Este proyecto Back-End fue realizado como práctica para una página web sobre
+                                BlackPink. Me motivó mucho su estilo de negro y rosa, y me ayudó a aprender a maquetar
+                                y programar, llevando una estructura limpia.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/BrandonVisosoDev/WebStreamlitPy" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/BrandonVisosoDev/WebStreamlitPy" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech">PYTHON</span>
+                            <span class="tech">STREAMLIT</span>
+                            <span class="tech">EXCEL</span>
+                            <span class="tech">PANDAS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Termina Tarjeta 3 -->
+        </div>
+    </section>
+    
+    
+    
+    <!-- Contact -->
+
+    <section id="contact" id=" contact-form " class="contact-form">
+        <div class="contact-info">
+            <h2>Contáctame</h2>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>Visoso.brandon@outlook.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>7352824949</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/brandonvisoso/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/BrandonVisosoDev" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="https://formspree.io/f/mpwangae" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!--  Soft Skills -->
+
+    <section id="skills" class="skills">
+        <h3>HABILIDADES BLANDAS</h3>
+        <div class="cards-container">
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h3>Trabajo en equipo</h3>
+                    <img src="/img/Sofsks/team.jpg" alt="Habilidad 1">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h3>Comunicacion Efectiva</h3>
+                    <img src="/img/Sofsks/cmef.jpg" alt="Habilidad 2">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h3>Aprendizaje Continuo</h3>
+                    <img src="/img/Sofsks/aprcont.jpg" alt="Habilidad 3">
+                </div>
+            </div>
+            <!-- Repite para las siguientes tarjetas -->
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h3>Toma de desiciones</h3>
+                    <img src="/img/Sofsks/tmdc.jpg" alt="Habilidad 4">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h3>Pensamiento critico</h3>
+                    <img src="/img/Sofsks/psacrt.jpg" alt="Habilidad 5">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h3>Resolucion de problemas</h3>
+                    <img src="/img/Sofsks/rsplma.jpg" alt="Habilidad 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Stack -->
+
+
+    <section id="stack" class="stacks">
+        
+        <h1>ESPECIALIZACIONES</h1>
+    
+    
+        <div class="card_stack-container">
+    
+            <div class="card-stacks">
+                <div class="card-content">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>FRONT-END</h3>
+                    <div class="tech-tags">
+                        <span class="tech">HTML</span>
+                        <span class="tech">CSS</span>
+                        <span class="tech">JAVASCRIPT</span>
+                        <span class="tech">REACT</span>
+                        <span class="tech">PHP</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-stacks">
+                <div class="card-content">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>BACK-END</h3>
+                    <div class="tech-tags">
+                        <span class="tech">PYTHON</span>
+                        <span class="tech">TYPESCRIPT</span>
+                        <span class="tech">RUBY</span>
+                        <span class="tech">EXPRESS</span>
+                        <span class="tech">GIT</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-stacks">
+                <div class="card-content">
+                    <i class="fa-solid fa-shield"></i>
+                    <h3>CYBERSEGURIDAD</h3>
+                    <div class="tech-tags">
+                        <span class="tech">LINUX</span>
+                        <span class="tech">WINDOWS</span>
+                        <span class="tech">REDES</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-stacks">
+                <div class="card-content">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <h3>ANALISTA DE DATOS</h3>
+                    <div class="tech-tags">
+                        <span class="tech">EXCEL</span>
+                        <span class="tech">R</span>
+                        <span class="tech">SQL</span>
+                        <span class="tech">MONGODB</span>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <div class="footer-top">
+          <div class="footer-column">
+            <h2>Acerca</h2>
+            <p>Gracias por leer y visitar mi portafolio, te recuerdo soy un ingeniero en sistemas junior y busco una gran oportunidad laboral.</p>
+            <div class="footer-icons">
+              <a href="https://www.linkedin.com/in/brandonvisoso/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/BrandonVisosoDev" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h2>Enlaces</h2>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+              <div class="contact-item"><i class="fas fa-map-marker-alt"></i> Cuernavaca, Morelos</div>
+              <div class="contact-item"><i class="fas fa-envelope"></i> Visoso.brandon@outlook.com</div>
+              <div class="contact-item"><i class="fas fa-phone"></i> +52 735 282 49 49</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Brandon Visoso. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+        
+  
+</body>
+</html>
